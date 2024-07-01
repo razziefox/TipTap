@@ -1,14 +1,25 @@
 {
-    "name": "TipTap",
-    "start_url": "index.html",
-    "display": "standalone",
-    "prefer_related_applications": false,
-    "icons": [
-      {
-        "src": "icons/512.png",
-        "type": "image/png",
-        "sizes": "512x512"
-      }
-    ]
-  }
-  
+  "name": "TipTap",
+  "start_url": "index.html",
+  "display": "standalone",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icons/512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "theme_color": "#f6c2cb",
+  "background_color": "#000000",
+  "short_name": "TipTap",
+  "description": "Lightweight tipping calculator developed with love",
+  "orientation": "any",
+  "display_override": [
+    "standalone",
+    "window-controls-overlay"
+  ],
+  "categories": [
+    "utilities"
+  ]
+}
