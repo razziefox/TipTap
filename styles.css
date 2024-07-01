@@ -76,6 +76,13 @@ a {
 
 }
 
+input {
+
+    width: 200px;
+    max-width: 200px;
+
+}
+
 input, select:focus, textarea {
 
     font-size: 16px !important;
