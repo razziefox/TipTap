@@ -1,0 +1,54 @@
+<html>
+
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+        <link rel="manifest" href="manifest.json"/>
+        <link rel="stylesheet" href="styles.css">
+
+        <title>TipTap</title>
+        <meta content="TipTap" property="og:title" />
+        <meta content="Lightweight tipping calculator developed with love" property="og:description" />
+        <meta content="icons/512.png" property="og:image" />
+        <meta content="#f6c2cb" data-react-helmet="true" name="theme-color" />
+        
+    </head>
+
+    <body>
+
+        <h1>TipTap</h1>
+
+        <h2>Tipping, &nbsp; <mark>Simplified&nbsp;</mark></h2>
+        
+        <section>
+
+            <label>bill amount</label>
+            <br/>
+            <input type="number" pattern="\d*" id="bill_amount" class="amount_input" max="10">
+            <br/>
+            <label>% of tip</label>
+            <br/>
+            <input type="number" pattern="\d*" id="bill_percentage" class="tip_input">
+            
+        </section>
+
+        <section>
+
+            <p>You'll tip: <br/>$<span id="bill_result">0</span></p>
+            <hr>
+            <p>The final bill will be: <br/>$<span id="bill_full">0</span></p>
+
+        </section>
+
+    </body>
+
+    <footer>
+
+        <p>developed by <a href="https://razziefox.com"><mark>&nbsp;florencio&nbsp;</mark></a></p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</html>
